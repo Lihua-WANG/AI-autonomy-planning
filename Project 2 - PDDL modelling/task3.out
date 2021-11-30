@@ -1,0 +1,23 @@
+ --- OK.
+ Match tree built with 12 nodes.
+
+PDDL problem description loaded: 
+	Domain: SECRETS
+	Problem: TASK3
+	#Actions: 12
+	#Fluents: 27
+Landmarks found: 2
+Starting search with IW (time budget is 60 secs)...
+rel_plan size: 6
+#RP_fluents 12
+Caption
+{#goals, #UNnachieved,  #Achieved} -> IW(max_w)
+
+{2/2/0}:IW(1) -> [2][3]rel_plan size: 4
+#RP_fluents 8
+{2/1/1}:IW(1) -> [2][3][4][5]rel_plan size: 0
+#RP_fluents 0Plan found with cost: -2495.7
+Total time: 0
+Nodes generated during search: 21
+Nodes expanded during search: 13
+IW search completed

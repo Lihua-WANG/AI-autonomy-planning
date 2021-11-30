@@ -1,0 +1,36 @@
+
+
+task contains conditional effects. turning off state domination.
+
+ --- OK.
+ Match tree built with 12 nodes.
+
+PDDL problem description loaded: 
+	Domain: SECRETS
+	Problem: TASK5
+	#Actions: 12
+	#Fluents: 10
+Landmarks found: 2
+Starting search with IW (time budget is 60 secs)...
+rel_plan size: 4
+#RP_fluents 6Initial State pruned! No Solution found.
+;; NOT I-REACHABLE ;;
+Total time: 0
+Nodes generated during search: 0
+Nodes expanded during search: 0
+IW search completed
+Starting search with BFS(novel,land,h_add)...
+--[4294967295 / 10]--
+--[2 / 10]--
+--[2 / 4]--
+--[2 / 3]--
+--[1 / 3]--
+--[1 / 2]--
+--[1 / 1]--
+--[1 / 0]--
+--[0 / 0]--
+Total time: 0
+Nodes generated during search: 16
+Nodes expanded during search: 4
+Plan found with cost: 4
+BFS search completed
